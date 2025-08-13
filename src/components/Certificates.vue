@@ -182,7 +182,7 @@
         </p>
         <div class="grid md:grid-cols-3 gap-6 mt-8">
           <div class="text-center">
-            <div class="text-3xl font-bold text-white mb-2">2024</div>
+            <div class="text-3xl font-bold text-white mb-2">2025</div>
             <div class="text-amber-100 text-sm">Latest Achievement</div>
           </div>
           <div class="text-center">
