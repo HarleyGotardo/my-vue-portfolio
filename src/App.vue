@@ -111,6 +111,20 @@ onUnmounted(() => {
             <p class="text-xs text-gray-500">Full Stack Developer</p>
           </div>
         </div>
+        <!-- Resume Button -->
+        <div class="mt-4">
+          <a
+            href="https://drive.google.com/file/d/1XoZg4c_784t9q5juZrAyT5Y7FHKSCdbY/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center w-full px-4 py-2 text-xs font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-sm"
+          >
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            View Resume
+          </a>
+        </div>
       </div>
 
       <!-- Navigation Menu -->

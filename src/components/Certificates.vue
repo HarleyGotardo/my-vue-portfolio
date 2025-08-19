@@ -14,7 +14,7 @@
             <p class="text-gray-600">Professional certifications and recognition achievements</p>
           </div>
         </div>
-        
+
         <div class="bg-gradient-to-r from-amber-50 to-yellow-50 rounded-xl p-6 border-l-4 border-amber-500">
           <h2 class="text-xl font-semibold text-gray-800 mb-3 flex items-center">
             <svg class="w-5 h-5 text-amber-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -23,7 +23,7 @@
             Professional Recognition
           </h2>
           <p class="text-gray-600 leading-relaxed">
-            A collection of certificates and awards that represent my professional achievements, academic excellence, 
+            A collection of certificates and awards that represent my professional achievements, academic excellence,
             and recognition in various fields of computer science and software development.
           </p>
         </div>
@@ -39,11 +39,17 @@
         </h3>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Copyright Certificate -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(0)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/certs/copyright.jpg" alt="Copyright Certificate" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-sm font-medium">Click to view</span>
+                </div>
               </div>
             </div>
             <div class="mt-4">
@@ -57,11 +63,17 @@
           </div>
 
           <!-- OJT Certificate -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(1)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/certs/ojet.jpg" alt="OJT Certificate" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-sm font-medium">Click to view</span>
+                </div>
               </div>
             </div>
             <div class="mt-4">
@@ -75,11 +87,17 @@
           </div>
 
           <!-- Outstanding Achievement -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(2)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/certs/outstanding.jpg" alt="Outstanding Achievement" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-sm font-medium">Click to view</span>
+                </div>
               </div>
             </div>
             <div class="mt-4">
@@ -93,11 +111,17 @@
           </div>
 
           <!-- Tour Certificate -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(3)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/certs/tour.jpg" alt="Tour Certificate" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-sm font-medium">Click to view</span>
+                </div>
               </div>
             </div>
             <div class="mt-4">
@@ -111,11 +135,17 @@
           </div>
 
           <!-- Turnover Certificate -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(4)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/certs/turnover.jpg" alt="Turnover Certificate" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-sm font-medium">Click to view</span>
+                </div>
               </div>
             </div>
             <div class="mt-4">
@@ -125,6 +155,28 @@
               </div>
               <h4 class="font-bold text-gray-800 text-lg mb-2">System Turnover Certificate</h4>
               <p class="text-sm text-gray-600 leading-relaxed">I am proud to have received a Certificate of Appreciation from the Department of Forest Science in Visayas State Univeristy for my significant role in developing the Post Product Collectors Monitoring System. This project holds a special place in my journey, as it aligns with my commitment to sustainability and innovation in resource tracking.</p>
+            </div>
+          </div>
+          <div class="group cursor-pointer" @click="openImageViewer(5)">
+            <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+              <img src="/certs/high6.jpg" alt="Turnover Certificate" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-sm font-medium">Click to view</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4">
+              <div class="flex items-center mb-2">
+                <div class="w-2 h-2 bg-rose-500 rounded-full mr-2"></div>
+                <span class="text-xs text-rose-600 font-medium uppercase tracking-wide">Internship Completion</span>
+              </div>
+              <h4 class="font-bold text-gray-800 text-lg mb-2">OJT Completion Certificate</h4>
+              <p class="text-sm text-gray-600 leading-relaxed">Successfully completed 305 hours of intensive on-the-job training, demonstrating professional commitment and practical skill development. This comprehensive internship experience provided hands-on exposure to real-world software development practices, team collaboration, and industry-standard methodologies, marking a significant milestone in my professional journey.</p>
             </div>
           </div>
         </div>
@@ -158,7 +210,7 @@
               <path fill-rule="evenodd" d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" clip-rule="evenodd"/>
             </svg>
           </div>
-          <div class="text-2xl font-bold text-blue-600 mb-1">2</div>
+          <div class="text-2xl font-bold text-blue-600 mb-1">3</div>
           <div class="text-gray-600 text-sm">Training Programs</div>
         </div>
 
@@ -177,7 +229,7 @@
       <div class="bg-gradient-to-r from-amber-500 to-yellow-600 rounded-2xl p-8 text-white text-center">
         <h3 class="text-2xl font-bold mb-4">Continuous Learning & Growth</h3>
         <p class="text-amber-100 mb-6 max-w-2xl mx-auto">
-          These certificates represent my commitment to continuous learning and professional development. 
+          These certificates represent my commitment to continuous learning and professional development.
           Each achievement marks a milestone in my journey as a developer and technology professional.
         </p>
         <div class="grid md:grid-cols-3 gap-6 mt-8">
@@ -196,9 +248,73 @@
         </div>
       </div>
     </div>
+
+    <!-- Image Viewer Component -->
+    <ImageViewer
+      :is-open="isImageViewerOpen"
+      :images="certificateImages"
+      :initial-index="selectedImageIndex"
+      @close="closeImageViewer"
+    />
   </div>
 </template>
 
 <script setup>
-// Certificates component
+import ImageViewer from './ImageViewer.vue'
+import { ref } from 'vue'
+
+// Image viewer state
+const isImageViewerOpen = ref(false)
+const selectedImageIndex = ref(0)
+
+// Certificate images data
+const certificateImages = ref([
+  {
+    src: '/certs/copyright.jpg',
+    alt: 'Copyright Certificate',
+    title: 'Copyright Protection Certificate',
+    description: 'Certificate of Appreciation for successful copyright application submission'
+  },
+  {
+    src: '/certs/ojet.jpg',
+    alt: 'OJT Certificate',
+    title: 'OJT Training Certificate',
+    description: 'Certificate of Appreciation for sharing IoT presentation experiences'
+  },
+  {
+    src: '/certs/outstanding.jpg',
+    alt: 'Outstanding Achievement',
+    title: 'Outstanding Performance Award',
+    description: 'Certificate of Recognition as Outstanding Computer Science Trainee'
+  },
+  {
+    src: '/certs/tour.jpg',
+    alt: 'Tour Certificate',
+    title: 'Educational Tour Certificate',
+    description: 'Certificate for visiting companies in Cebu City including Globe Telecom, Alliance Software Inc., RISE, RipeConcepts, and RivanIT'
+  },
+  {
+    src: '/certs/turnover.jpg',
+    alt: 'Turnover Certificate',
+    title: 'System Turnover Certificate',
+    description: 'Certificate of Appreciation for developing the Forest Product Collectors Monitoring System'
+  },
+  {
+    src: '/certs/high6.jpg',
+    alt: 'OJT Completion Certificate',
+    title: 'OJT Completion Certificate',
+    description: 'Successfully completed 305 hours of intensive on-the-job training'
+  }
+])
+
+// Open image viewer
+const openImageViewer = (index) => {
+  selectedImageIndex.value = index
+  isImageViewerOpen.value = true
+}
+
+// Close image viewer
+const closeImageViewer = () => {
+  isImageViewerOpen.value = false
+}
 </script>

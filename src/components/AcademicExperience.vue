@@ -14,7 +14,7 @@
             <p class="text-gray-600">Educational journey and academic achievements</p>
           </div>
         </div>
-        
+
         <div class="bg-gradient-to-r from-rose-50 to-pink-50 rounded-xl p-6 border-l-4 border-rose-500">
           <h2 class="text-xl font-semibold text-gray-800 mb-3 flex items-center">
             <svg class="w-5 h-5 text-rose-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -23,7 +23,7 @@
             Academic Foundation
           </h2>
           <p class="text-gray-600 leading-relaxed">
-            My academic journey has provided me with a strong foundation in Computer Science, encompassing both theoretical 
+            My academic journey has provided me with a strong foundation in Computer Science, encompassing both theoretical
             knowledge and practical application through various projects and research initiatives.
           </p>
         </div>
@@ -143,10 +143,18 @@
         </h3>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Certificate Copyright -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(0)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/achievements/certificate-copyright.jpg" alt="Certificate Copyright" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-xs font-medium">Click to view</span>
+                </div>
+              </div>
             </div>
             <div class="mt-3">
               <h4 class="font-semibold text-gray-800">Copyright Protection Certificate</h4>
@@ -155,10 +163,18 @@
           </div>
 
           <!-- Diploma -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(1)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/achievements/diploma.jpg" alt="Diploma" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-xs font-medium">Click to view</span>
+                </div>
+              </div>
             </div>
             <div class="mt-3">
               <h4 class="font-semibold text-gray-800">Holding My Diploma on Stage</h4>
@@ -167,10 +183,18 @@
           </div>
 
           <!-- OJT Presentation -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(2)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/achievements/ojt-present.jpg" alt="OJT Presentation" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-xs font-medium">Click to view</span>
+                </div>
+              </div>
             </div>
             <div class="mt-3">
               <h4 class="font-semibold text-gray-800">Conquering Public Speaking</h4>
@@ -179,10 +203,18 @@
           </div>
 
           <!-- Outstanding Achievement -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(3)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/achievements/outstanding.jpg" alt="Outstanding Achievement" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-xs font-medium">Click to view</span>
+                </div>
+              </div>
             </div>
             <div class="mt-3">
               <h4 class="font-semibold text-gray-800">From Zero to Hero</h4>
@@ -191,10 +223,18 @@
           </div>
 
           <!-- Thesis Defense -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(4)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/achievements/thesis-defense.jpg" alt="Thesis Defense" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-xs font-medium">Click to view</span>
+                </div>
+              </div>
             </div>
             <div class="mt-3">
               <h4 class="font-semibold text-gray-800">Thesis Defense</h4>
@@ -205,10 +245,18 @@
           </div>
 
           <!-- Turn Over Ceremony -->
-          <div class="group cursor-pointer">
+          <div class="group cursor-pointer" @click="openImageViewer(5)">
             <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <img src="/achievements/turn-over.jpg" alt="Turn Over Ceremony" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
               <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <div class="flex items-center justify-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+                  </svg>
+                  <span class="text-xs font-medium">Click to view</span>
+                </div>
+              </div>
             </div>
             <div class="mt-3">
               <h4 class="font-semibold text-gray-800">Turn Over Ceremony</h4>
@@ -224,7 +272,7 @@
       <div class="bg-gradient-to-r from-rose-500 to-pink-600 rounded-2xl p-8 text-white text-center">
         <h3 class="text-2xl font-bold mb-4">Academic Journey Complete</h3>
         <p class="text-rose-100 mb-6 max-w-2xl mx-auto">
-          My academic experience has provided me with a solid foundation in computer science, practical project development skills, 
+          My academic experience has provided me with a solid foundation in computer science, practical project development skills,
           and leadership experience that I now apply in my professional career.
         </p>
         <div class="grid md:grid-cols-3 gap-6 mt-8">
@@ -243,9 +291,73 @@
         </div>
       </div>
     </div>
+
+    <!-- Image Viewer Component -->
+    <ImageViewer
+      :is-open="isImageViewerOpen"
+      :images="achievementImages"
+      :initial-index="selectedImageIndex"
+      @close="closeImageViewer"
+    />
   </div>
 </template>
 
 <script setup>
-// Academic Experience component
+import ImageViewer from './ImageViewer.vue'
+import { ref } from 'vue'
+
+// Image viewer state
+const isImageViewerOpen = ref(false)
+const selectedImageIndex = ref(0)
+
+// Achievement images data
+const achievementImages = ref([
+  {
+    src: '/achievements/certificate-copyright.jpg',
+    alt: 'Certificate Copyright',
+    title: 'Copyright Protection Certificate',
+    description: 'A milestone reached! I received a certificate for successfully copyrighting my thesis system, the Forest Product Collectors Monitoring System.'
+  },
+  {
+    src: '/achievements/diploma.jpg',
+    alt: 'Diploma',
+    title: 'Holding My Diploma on Stage',
+    description: 'One of the greatest moments of my life! This photo captures the moment when I proudly held my diploma on stage during my graduation ceremony.'
+  },
+  {
+    src: '/achievements/ojt-present.jpg',
+    alt: 'OJT Presentation',
+    title: 'Conquering Public Speaking',
+    description: 'I took a leap of faith and shared my internship experience with fellow students during the VSU Faculty of Computing Student Internship Program.'
+  },
+  {
+    src: '/achievements/outstanding.jpg',
+    alt: 'Outstanding Achievement',
+    title: 'From Zero to Hero',
+    description: 'I began my internship with zero full-stack development experience, but thanks to High6\'s guidance and patience, I learned and grew.'
+  },
+  {
+    src: '/achievements/thesis-defense.jpg',
+    alt: 'Thesis Defense',
+    title: 'Thesis Defense',
+    description: 'I conceptualized, designed, developed, and defended my undergraduate thesis from start to finish. It was a challenging but rewarding experience.'
+  },
+  {
+    src: '/achievements/turn-over.jpg',
+    alt: 'Turn Over Ceremony',
+    title: 'Turn Over Ceremony',
+    description: 'What started as an academic requirement evolved into a real-world solution. My system is now serving its intended purpose.'
+  }
+])
+
+// Open image viewer
+const openImageViewer = (index) => {
+  selectedImageIndex.value = index
+  isImageViewerOpen.value = true
+}
+
+// Close image viewer
+const closeImageViewer = () => {
+  isImageViewerOpen.value = false
+}
 </script>
