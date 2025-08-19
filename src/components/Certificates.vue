@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="min-h-screen bg-gradient-to-br from-amber-50 to-yellow-50 p-6 md:p-8">
     <!-- Header Section -->
