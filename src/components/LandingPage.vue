@@ -23,9 +23,9 @@
             About Me
           </h2>
           <p class="text-gray-700 leading-relaxed">
-            Full-stack web developer with almost 2 years of real-world experience building scalable SaaS platforms using Laravel, 
-            Vue.js, and RESTful APIs. Skilled in database optimization, UI/UX design, and backend integration. Passionate about 
-            leveraging modern frameworks and AI-assisted tools to solve real-world problems and drive product innovation. Looking 
+            Full-stack web developer with almost 2 years of real-world experience building scalable SaaS platforms using Laravel,
+            Vue.js, and RESTful APIs. Skilled in database optimization, UI/UX design, and backend integration. Passionate about
+            leveraging modern frameworks and AI-assisted tools to solve real-world problems and drive product innovation. Looking
             to contribute to a collaborative remote team where growth and impact are valued.
           </p>
         </div>
@@ -88,7 +88,12 @@
               </div>
               <div>
                 <h3 class="font-semibold text-gray-800">Email</h3>
-                <p class="text-gray-600">harleygothards@gmail.com</p>
+                <router-link
+                  to="/contact"
+                  class="bg-indigo-600 text-white px-2 py-1 rounded-full shadow hover:bg-indigo-700 transition-colors duration-200 cursor-pointer inline-block animate-pulse"
+                >
+                  harleygothards@gmail.com
+                </router-link>
               </div>
             </div>
             <div class="flex items-center">
@@ -117,7 +122,7 @@
           <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-6">
             <h3 class="text-lg font-semibold text-gray-800 mb-4">Let's Connect!</h3>
             <p class="text-gray-600 mb-4">
-              Available for employment and open to remote and hybrid work arrangements. 
+              Available for employment and open to remote and hybrid work arrangements.
               Feel free to reach out if you'd like to work together!
             </p>
             <div class="flex space-x-4">

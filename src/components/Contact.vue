@@ -140,9 +140,6 @@
           Whether you have a project in mind or just want to connect, don't hesitate to reach out!
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="mailto:harleygotardo@gmail.com" class="bg-white text-amber-600 px-6 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors duration-200">
-            Send Email
-          </a>
           <a href="https://www.linkedin.com/in/harley-gotardo-6a2282295/" target="_blank" class="bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors duration-200 border-2 border-white">
             Connect on LinkedIn
           </a>
