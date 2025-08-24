@@ -29,7 +29,7 @@ const router = createRouter({
     {
       path: '/experience',
       name: 'sidebar2',
-      component: Sidebar2, // Experience      
+      component: Sidebar2, // Experience
       meta: {
         title: 'Harley Gotardo - Experience'
       }
