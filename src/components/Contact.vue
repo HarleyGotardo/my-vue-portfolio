@@ -148,12 +148,130 @@
           </a>
         </div>
       </div>
-    </div>
-  </div>
-</template>
 
-<script setup>
-// Sidebar 4 placeholder component
+      <!-- Contact Form Section -->
+      <div class="mt-7 bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-10 mb-8 border border-white/20 flex flex-col items-center relative overflow-hidden">
+        <!-- Decorative gradient overlay -->
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-50/30 via-transparent to-purple-50/30 pointer-events-none"></div>
+
+        <!-- Content wrapper -->
+        <div class="relative z-10 w-full flex flex-col items-center">
+          <!-- Icon and header -->
+          <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl mb-6 shadow-lg">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+
+          <h1 class="text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent mb-3 tracking-tight">Get In Touch</h1>
+          <p class="text-gray-600 mb-10 text-center max-w-md leading-relaxed">I'd love to hear from you. Send me a message and I'll respond as soon as possible.</p>
+
+          <form @submit.prevent="sendEmail" class="w-full max-w-md space-y-6">
+            <!-- Sender Email -->
+            <div class="space-y-2">
+              <label for="from_name" class="block text-sm font-semibold text-gray-700">Your Email</label>
+              <input
+                type="email"
+                id="from_name"
+                v-model="form.from_name"
+                required
+                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all duration-200 bg-white/70 backdrop-blur-sm hover:bg-white/90"
+                placeholder="Enter your email address"
+              />
+            </div>
+
+            <!-- Message -->
+            <div class="space-y-2">
+              <label for="message" class="block text-sm font-semibold text-gray-700">Message</label>
+                <textarea
+                id="message"
+                v-model="form.message"
+                required
+                rows="4"
+                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all duration-200 resize-none bg-white/70 backdrop-blur-sm hover:bg-white/90"
+                placeholder="Please provide your message, including your concern and any relevant details."
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button
+              type="submit"
+              class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 rounded-xl font-semibold hover:from-blue-600 cursor-pointer hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-[1.02] active:scale-[0.98]"
+            >
+              Send Message
+            </button>
+          </form>
+
+          <p v-if="successMessage" class="mt-6 text-green-600 text-sm text-center font-medium bg-green-50 py-2 px-4 rounded-lg">{{ successMessage }}</p>
+          <p v-if="errorMessage" class="mt-6 text-red-600 text-sm text-center font-medium bg-red-50 py-2 px-4 rounded-lg">{{ errorMessage }}</p>
+        </div>
+      </div>
+        </div>
+      </div>
+    </template>
+
+    <script setup>
+    import { ref } from 'vue';
+    import emailjs from "emailjs-com";
+
+    const form = ref({
+      from_name: "",
+      to_name: "Harley Gotardo",
+      email: "",
+      subject: "",
+      message: "",
+    });
+    const successMessage = ref("");
+    const errorMessage = ref("");
+
+    const sendEmail = async () => {
+      try {
+        const serviceID = "service_tm6x3ep";
+        const templateID = "template_vt83ylr";
+        const publicKey = "JT0Mz-3RCbJul7jJb";
+
+        await emailjs.send(
+      serviceID,
+      templateID,
+      {
+        from_name: form.value.from_name,
+        to_name: form.value.to_name,
+        from_email: form.value.email, // This maps to {{email}} in your template
+        subject: form.value.subject,
+        message: form.value.message,
+      },
+      publicKey
+        );
+
+        form.value.from_name = "";
+        form.value.to_name = "Harley Gotardo";
+        form.value.email = "";
+        form.value.subject = "";
+        form.value.message = "";
+        successMessage.value = "Your message has been sent successfully!";
+        errorMessage.value = "";
+
+        // Clear success message after 4 seconds
+        setTimeout(() => {
+          successMessage.value = "";
+        }, 4000);
+      } catch (error) {
+        console.error("Failed to send email:", error);
+        successMessage.value = "";
+        errorMessage.value = "Failed to send your message. Please try again.";
+
+        // Clear error message after 4 seconds
+        setTimeout(() => {
+          errorMessage.value = "";
+        }, 4000);
+      }
+    };
+    </script>
+
+<script>
+export default {
+  name: 'ContactSection'
+}
 </script>
 
 <style scoped>
