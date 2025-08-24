@@ -31,6 +31,38 @@
       <!-- Work Experience Timeline -->
       <div class="space-y-8 mb-8">
         <!-- High6 Internship -->
+        <!-- Brice Holding LLC Internship -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 relative">
+          <div class="flex items-start justify-between mb-6">
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mr-4 relative">
+          <!-- Green Pulse Circle -->
+          <span class="absolute -top-2 -right-2 flex h-4 w-4">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+          </span>
+          <svg class="w-6 h-6 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"/>
+          </svg>
+              </div>
+              <div>
+          <h3 class="text-xl font-bold text-gray-800">Intern <strong class="text-green-800">(Active)</strong></h3>
+          <p class="text-emerald-600 font-semibold">Brice Holding LLC</p>
+          <p class="text-sm mb-1 text-gray-500">August - Current 2025 • Remote</p>
+          <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">3 Months Contract</span>
+              </div>
+            </div>
+            <span class="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-medium">Active</span>
+          </div>
+          <p class="text-gray-600 mb-4 leading-relaxed">
+            Currently serving as an Intern at Brice Holding LLC, contributing to ongoing projects and gaining valuable industry experience in a dynamic remote environment.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">Internship</span>
+            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Remote</span>
+            <span class="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs">Active</span>
+          </div>
+        </div>
         <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-xl transition-all duration-300">
           <div class="flex items-start justify-between mb-6">
             <div class="flex items-center">

@@ -14,7 +14,7 @@
             <p class="text-gray-600">Technologies and competencies I work with</p>
           </div>
         </div>
-        
+
         <div class="bg-gradient-to-r from-rose-50 to-pink-50 rounded-xl p-6 border-l-4 border-rose-500">
           <h2 class="text-xl font-semibold text-gray-800 mb-3 flex items-center">
             <svg class="w-5 h-5 text-rose-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -23,7 +23,7 @@
             Technical Expertise
           </h2>
           <p class="text-gray-600 leading-relaxed">
-            Comprehensive skill set spanning frontend and backend development, database management, and modern development 
+            Comprehensive skill set spanning frontend and backend development, database management, and modern development
             tools. Experienced in building scalable applications with focus on performance optimization and user experience.
           </p>
         </div>
@@ -250,7 +250,7 @@
             <div class="w-4 h-4 bg-rose-500 rounded-full mt-1 mr-4 flex-shrink-0"></div>
             <div>
               <h4 class="font-semibold text-gray-800">Current Position</h4>
-              <p class="text-gray-600 text-sm">Looking for opportunities</p>
+              <p class="text-gray-600 text-sm">Jr. Full Stack Developer Intern at <strong>Brice Holding LLC</strong></p>
             </div>
           </div>
           <div class="flex items-start">
