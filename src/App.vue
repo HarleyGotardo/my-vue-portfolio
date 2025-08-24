@@ -263,7 +263,7 @@ onUnmounted(() => {
 
       <!-- Footer -->
       <div class="absolute bottom-0 left-0 right-0 p-4 border-t border-gray-100 bg-gray-50">
-        <p class="text-xs text-gray-500 text-center"> @2025 Harley Gotardo</p>
+        <p class="text-xs text-gray-500 text-center"> @{{ new Date().getFullYear() }} Harley Gotardo</p>
       </div>
     </nav>
 
