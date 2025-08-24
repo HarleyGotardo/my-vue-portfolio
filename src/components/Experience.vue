@@ -232,9 +232,9 @@
               jude.rola@vsu.edu.ph
             </a>
           </div>
-          <p class="text-emerald-100 mt-6">
+          <!-- <p class="text-emerald-100 mt-6">
             Available for employment | Open to remote and hybrid work arrangements
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
