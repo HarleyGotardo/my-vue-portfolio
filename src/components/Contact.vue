@@ -16,7 +16,7 @@
           </div>
         </div>
 
-        <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6 border-l-4 border-amber-500">
+        <!-- <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6 border-l-4 border-amber-500">
           <h2 class="text-xl font-semibold text-gray-800 mb-3 flex items-center">
             <svg class="w-5 h-5 text-amber-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
@@ -28,22 +28,25 @@
             I'm currently available for full-time opportunities and exciting projects. Whether you're looking for
             a dedicated team member or need help bringing your ideas to life, I'd love to hear from you.
           </p>
-        </div>
+        </div> -->
       </div>
 
       <!-- Contact Information Cards -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         <!-- Email -->
-        <a href="mailto:harleygotardo@gmail.com" class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-all duration-300 group block">
+        <button
+          @click="scrollToSection"
+          class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-all duration-300 group block"
+        >
           <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
             <svg class="w-6 h-6 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
             </svg>
           </div>
           <h3 class="text-lg font-semibold text-gray-800 mb-2">Email</h3>
           <p class="text-gray-600 text-sm">harleygotardo@gmail.com</p>
-        </a>
+        </button>
 
         <!-- Phone -->
         <a href="tel:+639123456789" class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-all duration-300 group block">
@@ -147,7 +150,7 @@
       </div>
 
       <!-- Contact Form Section -->
-      <div class="mt-7 bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-10 mb-8 border border-white/20 flex flex-col items-center relative overflow-hidden">
+      <div id="contact-section" class="mt-7 bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-10 mb-8 border border-white/20 flex flex-col items-center relative overflow-hidden">
         <!-- Decorative gradient overlay -->
         <div class="absolute inset-0 bg-gradient-to-br from-blue-50/30 via-transparent to-purple-50/30 pointer-events-none"></div>
 
@@ -261,6 +264,13 @@
         setTimeout(() => {
           errorMessage.value = "";
         }, 4000);
+      }
+    };
+
+    const scrollToSection = () => {
+      const section = document.querySelector("#contact-section");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
       }
     };
     </script>
