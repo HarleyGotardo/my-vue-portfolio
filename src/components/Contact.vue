@@ -15,7 +15,7 @@
             <p class="text-gray-600">Let's connect and discuss opportunities</p>
           </div>
         </div>
-        
+
         <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6 border-l-4 border-amber-500">
           <h2 class="text-xl font-semibold text-gray-800 mb-3 flex items-center">
             <svg class="w-5 h-5 text-amber-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -25,7 +25,7 @@
             Ready to Collaborate
           </h2>
           <p class="text-gray-600 leading-relaxed">
-            I'm currently available for full-time opportunities and exciting projects. Whether you're looking for 
+            I'm currently available for full-time opportunities and exciting projects. Whether you're looking for
             a dedicated team member or need help bringing your ideas to life, I'd love to hear from you.
           </p>
         </div>
@@ -44,7 +44,7 @@
           <h3 class="text-lg font-semibold text-gray-800 mb-2">Email</h3>
           <p class="text-gray-600 text-sm">harleygotardo@gmail.com</p>
         </a>
-        
+
         <!-- Phone -->
         <a href="tel:+639123456789" class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-all duration-300 group block">
           <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
@@ -55,7 +55,7 @@
           <h3 class="text-lg font-semibold text-gray-800 mb-2">Phone</h3>
           <p class="text-gray-600 text-sm">+63 912 345 6789</p>
         </a>
-        
+
         <!-- Location -->
         <div class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-all duration-300 group">
           <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
@@ -90,7 +90,7 @@
                 <p class="text-gray-600 text-sm">Professional networking</p>
               </div>
             </a>
-            
+
             <!-- GitHub -->
             <a href="https://github.com/harleygotardo" target="_blank" class="flex items-center p-4 bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl hover:shadow-md transition-all duration-300 group">
               <div class="w-12 h-12 bg-gray-800 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-200">
@@ -104,7 +104,7 @@
               </div>
             </a>
           </div>
-          
+
           <div class="space-y-6">
             <!-- Instagram -->
             <a href="https://www.instagram.com/harleyharrrr/" target="_blank" class="flex items-center p-4 bg-gradient-to-r from-pink-50 to-rose-100 rounded-xl hover:shadow-md transition-all duration-300 group">
@@ -118,14 +118,16 @@
                 <p class="text-gray-600 text-sm">@harleyharrrr</p>
               </div>
             </a>
-            
+
             <!-- Availability Status -->
             <div class="p-4 bg-gradient-to-r from-green-50 to-emerald-100 rounded-xl">
-              <div class="flex items-center mb-2">
-                <div class="w-3 h-3 bg-green-500 rounded-full mr-2 animate-pulse"></div>
-                <h4 class="font-semibold text-gray-800">Available for Work</h4>
-              </div>
-              <p class="text-gray-600 text-sm">Open to full-time, remote work, and exciting projects</p>
+                <div class="flex items-center mb-2">
+                <div class="w-3 h-3 bg-gray-500 rounded-full mr-2 animate-pulse"></div>
+                <h4 class="font-semibold text-gray-800">Available for Work after Internship</h4>
+                </div>
+                <p class="text-gray-600 text-sm">
+                  Available for full-time & remote work after internship.
+                </p>
             </div>
           </div>
         </div>
@@ -134,7 +136,7 @@
       <div class="bg-gradient-to-r from-amber-500 to-orange-600 rounded-2xl p-8 text-white text-center">
         <h3 class="text-2xl font-bold mb-4">Let's Work Together!</h3>
         <p class="text-amber-100 mb-6 max-w-2xl mx-auto">
-          I'm passionate about creating innovative solutions and would love to contribute to your team's success. 
+          I'm passionate about creating innovative solutions and would love to contribute to your team's success.
           Whether you have a project in mind or just want to connect, don't hesitate to reach out!
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">

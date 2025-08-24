@@ -4,9 +4,15 @@
     <div class="max-w-4xl mx-auto">
       <div class="bg-white rounded-2xl shadow-lg p-8 mb-8 border border-gray-100">
         <div class="flex items-center mb-6">
-          <div class="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
-            <span class="text-white font-bold text-xl">1</span>
-          </div>
+            <div class="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
+            <svg
+              class="w-8 h-8 text-white"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+            </svg>
+            </div>
           <div>
             <h1 class="text-3xl font-bold text-gray-800">Featured Projects</h1>
             <p class="text-gray-600">Showcasing my development work and technical achievements</p>

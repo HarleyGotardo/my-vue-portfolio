@@ -4,9 +4,20 @@
     <div class="max-w-4xl mx-auto">
       <div class="bg-white rounded-2xl shadow-lg p-8 mb-8 border border-gray-100">
         <div class="flex items-center mb-6">
-          <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mr-4">
-            <span class="text-white font-bold text-xl">2</span>
-          </div>
+            <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mr-4">
+            <svg
+              class="w-10 h-10 transition-colors"
+              :class="{
+              'text-white': $route.path === '/experience',
+              'text-emerald-100 group-hover:text-white': $route.path !== '/experience'
+              }"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"/>
+              <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"/>
+            </svg>
+            </div>
           <div>
             <h1 class="text-3xl font-bold text-gray-800">Work Experience</h1>
             <p class="text-gray-600">Professional journey and achievements</p>
