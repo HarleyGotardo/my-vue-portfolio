@@ -274,6 +274,7 @@
 </template>
 
 <script setup>
+defineOptions({ name: 'SkillsSection' });
 // Sidebar 3 placeholder component
 </script>
 

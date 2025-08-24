@@ -187,20 +187,24 @@ onUnmounted(() => {
           <li>
             <router-link
               to="/experience"
-              class="flex items-center px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 hover:bg-emerald-50 hover:text-emerald-700 group"
+              class="flex items-center px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 hover:bg-emerald-50 hover:text-emerald-700 group relative"
               :class="{
-                'bg-emerald-50 text-emerald-700 border-r-2 border-emerald-500': $route.path === '/experience',
-                'text-gray-600 hover:text-gray-900': $route.path !== '/experience'
+              'bg-emerald-50 text-emerald-700 border-r-2 border-emerald-500': $route.path === '/experience',
+              'text-gray-600 hover:text-gray-900': $route.path !== '/experience'
               }"
             >
               <svg class="w-5 h-5 mr-3 transition-colors" :class="{
-                'text-emerald-500': $route.path === '/experience',
-                'text-gray-400 group-hover:text-emerald-500': $route.path !== '/experience'
+              'text-emerald-500': $route.path === '/experience',
+              'text-gray-400 group-hover:text-emerald-500': $route.path !== '/experience'
               }" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"/>
-                <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"/>
+              <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"/>
+              <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"/>
               </svg>
               Experience
+              <span class="absolute -top-2 -right-2 flex h-4 w-4">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+              </span>
             </router-link>
           </li>
           <li>
