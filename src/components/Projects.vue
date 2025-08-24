@@ -235,6 +235,9 @@
       <div>
         <h3 class="text-xl font-bold text-gray-800">Human Resource Information System (HRIS)</h3>
         <p class="text-sm text-gray-500">Client Project • 2025</p>
+                        <a href="https://github.com/totbenz/personal-info-management-system" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-2 py-1 text-xs font-medium text-blue-600 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 rounded-md">
+                  View Repository
+                </a>
       </div>
     </div>
     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Laravel Developer</span>
@@ -289,9 +292,7 @@
               <div>
                 <h3 class="text-lg font-semibold text-gray-800">HRIS - Mentorship Project</h3>
                 <p class="text-xs text-gray-500">2025-Present • Technical Mentor and Developer</p>
-                <a href="https://github.com/totbenz/personal-info-management-system" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-2 py-1 text-xs font-medium text-blue-600 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 rounded-md">
-                  View Repository
-                </a>
+
               </div>
             </div>
             <p class="text-gray-600 text-sm mb-4">
@@ -382,6 +383,7 @@
 </template>
 
 <script setup>
+defineOptions({ name: 'PortfolioProjects' })
 import { ref, onMounted, onUnmounted } from 'vue'
 import SubscriptionTrackingSystem from './SubscriptionTrackingSystem.vue'
 

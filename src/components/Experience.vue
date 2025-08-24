@@ -42,10 +42,26 @@
               <div>
                 <h3 class="text-xl font-bold text-gray-800">Full-Stack Developer Intern</h3>
                 <p class="text-emerald-600 font-semibold">High6 - Web Design & E-commerce Development Company</p>
-                <p class="text-sm text-gray-500">June - August 2024 • Remote</p>
+                <p class="text-sm mb-1 text-gray-500">June - August 2024 • Remote</p>
+                <a
+                  class="hover:bg-red-200 text-xs bg-red-100 px-2 py-1 rounded-full"
+                  href="https://drive.google.com/file/d/1SLEvOXqw6RlHNzNkNPHu6szHcfjVrqry/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Read Documentation
+                </a>
+                <a
+                  class="text-xs bg-blue-100 px-2 py-1 ml-2 rounded-full hover:bg-blue-200"
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:7228638121465184256/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View LinkedIn Post
+                </a>
               </div>
             </div>
-            <span class="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-medium">3 Months</span>
+            <span class="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-medium">305 Hours</span>
           </div>
           <p class="text-gray-600 mb-4 leading-relaxed">
             Digital agency specializing in custom web solutions and e-commerce platforms for SMEs. Gained hands-on experience
@@ -183,6 +199,7 @@
 </template>
 
 <script setup>
+defineOptions({ name: 'ExperienceSection' });
 // Sidebar 2 placeholder component
 </script>
 
