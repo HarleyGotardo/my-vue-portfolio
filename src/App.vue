@@ -114,7 +114,7 @@ onUnmounted(() => {
         <!-- Resume Button -->
         <div class="mt-4">
           <a
-            href="https://drive.google.com/file/d/1XoZg4c_784t9q5juZrAyT5Y7FHKSCdbY/view?usp=sharing"
+            href="https://flowcv.com/resume/aur4kwgw8dhq"
             target="_blank"
             rel="noopener noreferrer"
             class="inline-flex items-center justify-center w-full px-4 py-2 text-xs font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-sm"
