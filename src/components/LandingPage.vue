@@ -38,8 +38,8 @@
             What sets me apart? I don't just code. I mentor. While still learning as an intern, I'm also guiding a master's student through
             their HR Information System capstone, bridging academic research with industry standards. Whether it's optimizing complex
             relational databases, implementing micro-frontend architectures, or rapidly adapting to new stacks like Next.js and GraphQL,
-            I bring consistency, adaptability, and an insatiable curiosity to every project. Currently expanding my skills in AI integration
-            and backend architecture at Brice Holding LLC, where I'm exploring how emerging technologies can solve tomorrow's challenges.
+            I bring consistency, adaptability, and an insatiable curiosity to every project. Currently expanding my skills in
+           microservices architecture at Brice Holding LLC, where I'm exploring how emerging technologies can solve tomorrow's challenges.
           </p>
         </div>
       </section>
