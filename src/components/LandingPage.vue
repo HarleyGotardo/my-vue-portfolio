@@ -23,10 +23,23 @@
             About Me
           </h2>
           <p class="text-gray-700 leading-relaxed">
-            Full-stack web developer with almost 2 years of real-world experience building scalable SaaS platforms using Laravel,
-            Vue.js, and RESTful APIs. Skilled in database optimization, UI/UX design, and backend integration. Passionate about
-            leveraging modern frameworks and AI-assisted tools to solve real-world problems and drive product innovation. Looking
-            to contribute to a collaborative remote team where growth and impact are valued.
+            What started as curiosity about how systems work has evolved into a passion for building software that creates genuine impact.
+            As a recent Computer Science graduate turned Full-Stack Developer, I've spent the past two years diving deep into Laravel,
+            Vue.js, and modern JavaScript ecosystems. It's not just about learning the syntax, but understanding how to architect solutions that
+            businesses actually rely on.
+          </p>
+          <p class="text-gray-700 leading-relaxed mt-4">
+            My journey speaks through the projects I've built: developing an enterprise-grade Forest Product Collectors Monitoring System
+            that's now copyright-protected and actively deployed, replacing legacy Microsoft Word workflows with interactive GIS mapping
+            and automated permit generation. At High6 Creatives, I served as the sole backend intern architecting a subscription tracking
+            platform from database normalization to automated notification systems, turning a good idea into production-ready code.
+          </p>
+          <p class="text-gray-700 leading-relaxed mt-4">
+            What sets me apart? I don't just code. I mentor. While still learning as an intern, I'm also guiding a master's student through
+            their HR Information System capstone, bridging academic research with industry standards. Whether it's optimizing complex
+            relational databases, implementing micro-frontend architectures, or rapidly adapting to new stacks like Next.js and GraphQL,
+            I bring consistency, adaptability, and an insatiable curiosity to every project. Currently expanding my skills in AI integration
+            and backend architecture at Brice Holding LLC, where I'm exploring how emerging technologies can solve tomorrow's challenges.
           </p>
         </div>
       </section>

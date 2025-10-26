@@ -181,55 +181,6 @@
         <!-- Subscription Tracking System -->
         <SubscriptionTrackingSystem />
 
-        <!-- University Supreme Student Council Connect -->
-        <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-xl transition-all duration-300">
-          <div class="flex items-start justify-between mb-6">
-            <div class="flex items-center">
-              <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mr-4">
-                <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold text-gray-800">University Supreme Student Council Connect</h3>
-                <p class="text-sm text-gray-500">Management System • 2025 - <span class="text-green-600">Present</span></p>
-              </div>
-            </div>
-            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Database Engineer</span>
-          </div>
-          <p class="text-gray-600 mb-4 leading-relaxed">
-            Software-based management system with cross-platform capabilities. Designed complete database architecture
-            and developed backend logic for student registration, QR code attendance, and financial management.
-          </p>
-          <div class="grid md:grid-cols-2 gap-4 mb-4">
-            <div class="bg-gray-50 rounded-lg p-4">
-              <h4 class="font-semibold text-gray-800 mb-2">Responsibilities</h4>
-              <ul class="text-sm text-gray-600 space-y-1">
-                <li>• Database design and architecture in Supabase</li>
-                <li>• Normalized tables to Third Normal Form (3NF)</li>
-                <li>• Backend logic development</li>
-                <li>• API endpoints for web-mobile communication</li>
-              </ul>
-            </div>
-            <div class="bg-gray-50 rounded-lg p-4">
-              <h4 class="font-semibold text-gray-800 mb-2">Key Modules</h4>
-              <ul class="text-sm text-gray-600 space-y-1">
-                <li>• Student Registration System</li>
-                <li>• QR Code-based Attendance Scanning</li>
-                <li>• Fines & Fees Management</li>
-                <li>• Cross-platform mobile app integration</li>
-              </ul>
-            </div>
-          </div>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs">Next.js</span>
-            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">Supabase</span>
-            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs">Tailwind CSS</span>
-            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Flutter</span>
-            <span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-xs">Vercel</span>
-          </div>
-        </div>
-
         <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-xl transition-all duration-300 max-h-auto">
   <div class="flex items-start justify-between mb-6">
     <div class="flex items-center">
