@@ -39,7 +39,7 @@
       <!-- Technical Skills Grid -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
         <!-- Frontend Development -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
               <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
@@ -78,7 +78,7 @@
         </div>
 
         <!-- Backend Development -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
               <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 20 20">
@@ -109,7 +109,7 @@
         </div>
 
         <!-- Database Technologies -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
               <svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
@@ -137,7 +137,7 @@
         </div>
 
         <!-- Mobile Development -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
               <svg class="w-8 h-8 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
@@ -156,7 +156,7 @@
         </div>
 
         <!-- Tools & Platforms -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
               <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
@@ -185,7 +185,7 @@
         </div>
 
         <!-- Core Competencies -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-16 h-16 bg-rose-100 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
               <svg class="w-8 h-8 text-rose-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -288,14 +288,14 @@
             <div class="w-5 h-5 bg-purple-500 rounded-full mt-2 mr-6 flex-shrink-0 shadow-lg"></div>
             <div>
               <h4 class="font-bold text-gray-900 text-lg">Current Position</h4>
-              <p class="text-gray-600 text-base">Jr. Full Stack Developer Intern at <strong class="text-gray-900">Brice Holding LLC</strong></p>
+              <p class="text-gray-600 text-base">Unemployed</p>
             </div>
           </div>
           <div class="flex items-start">
             <div class="w-5 h-5 bg-pink-400 rounded-full mt-2 mr-6 flex-shrink-0 shadow-lg"></div>
             <div>
               <h4 class="font-bold text-gray-900 text-lg">Previous Experience</h4>
-              <p class="text-gray-600 text-base">Jr. Laravel Developer Intern at High6</p>
+              <p class="text-gray-600 text-base">Jr. Software Developer Intern at NGnair Payments</p>
             </div>
           </div>
           <div class="flex items-start">

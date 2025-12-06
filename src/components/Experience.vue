@@ -34,8 +34,8 @@
             </svg>
             Professional Development
           </h2>
-          <p class="text-gray-700 leading-relaxed text-lg">
-            Full-stack developer experienced in building and maintaining scalable web applications across Laravel, Vue.js, Next.js, and NestJS, with hands-on expertise in REST/GraphQL API integrations, JWT-based SSO authentication, CI/CD automation, and database optimization—proven through successful contributions to production-grade systems during internships at High6 Creatives and Brice Holding LLC.
+          <p class="text-gray-700 leading-relaxed text-lg text-justify">
+            Full-stack developer experienced in building and maintaining scalable web applications across Laravel, Vue.js, Next.js, and NestJS, with hands-on expertise in REST/GraphQL API integrations, integrating JWT-based authentication, CI/CD automation, and database optimization—proven through successful contributions to production-grade systems during internships at High6 Creatives and Brice Holding LLC.
           </p>
         </div>
       </div>
@@ -43,40 +43,35 @@
       <!-- Work Experience Timeline -->
       <div class="space-y-8 mb-16">
         <!-- Brice Holding LLC Internship -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-12 hover:shadow-2xl hover:scale-105 transition-all duration-500 relative">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-12 hover:shadow-2xl  transition-all duration-500 relative">
           <div class="flex items-start justify-between mb-8">
             <div class="flex items-center">
               <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mr-6 relative shadow-lg">
-          <!-- Green Pulse Circle -->
-          <span class="absolute -top-2 -right-2 flex h-5 w-5">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-5 w-5 bg-green-500"></span>
-          </span>
           <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
             <path d="M8 13l3 3 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
               </div>
               <div>
-          <h3 class="text-2xl font-bold text-gray-900">Intern <strong class="text-green-800">(Active)</strong></h3>
+          <h3 class="text-2xl font-bold text-gray-900">Junior Software Developer Intern</h3>
           <p class="text-emerald-600 font-bold text-lg">Brice Holding LLC</p>
-          <p class="text-lg mb-3 text-gray-500">August - Current 2025 • Remote</p>
-          <span class="px-4 py-2 bg-green-100 text-green-800 rounded-xl text-sm font-bold shadow-sm">3 Months Contract</span>
+          <p class="text-lg mb-3 text-gray-500">August - November 2025 • Hybrid</p>
+          <span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-xl text-sm font-bold shadow-sm">3 Months Contract</span>
               </div>
             </div>
-            <span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-xl text-sm font-bold shadow-sm">Active</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-800 rounded-xl text-sm font-bold shadow-sm">Completed</span>
           </div>
-          <p class="text-gray-600 mb-8 leading-relaxed text-lg">
-            Developed and maintained scalable micro-frontend and microservices architectures for a B2B payment processing platform using Next.js and NestJS, integrating REST and GraphQL APIs, implementing JWT-based SSO authentication across multiple subdomains, and managing CI/CD pipelines with Docker and GitHub Actions for production deployment.
+          <p class="text-gray-600 mb-8 leading-relaxed text-lg text-justify">
+            Developed and maintained scalable micro-frontend and microservices architectures for a B2B payment processing platform using Next.js and NestJS, integrating REST and GraphQL APIs, integrating JWT-based authentication across multiple subdomains, and managing CI/CD pipelines with Docker and GitHub Actions for production deployment.
           </p>
           <div class="flex flex-wrap gap-4">
             <span class="px-4 py-2 bg-green-100 text-green-800 rounded-xl text-sm font-semibold shadow-sm">Internship</span>
             <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-xl text-sm font-semibold shadow-sm">Remote</span>
-            <span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-xl text-sm font-semibold shadow-sm">Active</span>
+            <span class="px-4 py-2 bg-gray-100 text-gray-800 rounded-xl text-sm font-semibold shadow-sm">Completed</span>
           </div>
         </div>
         <!-- High6 Internship -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-12 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-12 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-start justify-between mb-8">
             <div class="flex items-center">
               <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mr-6 shadow-lg">
@@ -93,7 +88,7 @@
             </div>
             <span class="px-4 py-2 bg-gray-100 text-gray-800 rounded-xl text-sm font-bold shadow-sm">Completed</span>
           </div>
-          <p class="text-gray-600 mb-8 leading-relaxed text-lg">
+          <p class="text-gray-600 mb-8 leading-relaxed text-lg text-justify">
 Built an end-to-end subscription management system using Laravel, Vue.js, and Inertia.js by designing normalized MySQL databases, automating email notifications with Laravel Jobs, and delivering full-stack features independently with consistent sprint completion and strong collaboration within the Laravel team.
           </p>
           <div class="flex flex-wrap gap-4">
@@ -122,10 +117,10 @@ Built an end-to-end subscription management system using Laravel, Vue.js, and In
               </svg>
             </div>
             <div>
-              <h4 class="text-xl font-bold text-gray-900">Bachelor of Science in Information Technology</h4>
+              <h4 class="text-xl font-bold text-gray-900">Bachelor of Science in Computer Science</h4>
               <p class="text-purple-600 font-bold text-lg mb-3">Visayas State University</p>
               <p class="text-gray-600 text-lg">Graduated: 2024</p>
-              <p class="text-gray-600 text-lg mt-4">Specialized in software development and database management with focus on modern web technologies and full-stack development.</p>
+              <p class="text-gray-600 text-lg mt-4 text-justify">Specialized in intelligent systems, database management and software engineering with focus on modern web technologies and full-stack development.</p>
             </div>
           </div>
           <div class="flex items-start">
@@ -137,7 +132,7 @@ Built an end-to-end subscription management system using Laravel, Vue.js, and In
             </div>
             <div>
               <h4 class="text-xl font-bold text-gray-900">Thesis: <em class="text-gray-700">"HRIS: A Web-Based Human Resource Information System"</em></h4>
-              <p class="text-gray-600 text-lg mt-3">Developed a comprehensive HR management system featuring employee records, attendance tracking, and payroll management using Laravel and Vue.js.</p>
+              <p class="text-gray-600 text-lg mt-3 text-justify">Developed a comprehensive HR management system featuring employee records, attendance tracking, and payroll management using Laravel and Vue.js.</p>
             </div>
           </div>
           <div class="flex items-start">

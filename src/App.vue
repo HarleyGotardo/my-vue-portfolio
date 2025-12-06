@@ -229,10 +229,6 @@ onUnmounted(() => {
               <span class="transition-all duration-200" :class="{
                 'font-semibold': $route.path === '/experience'
               }">Experience</span>
-              <span class="flex items-center ml-auto">
-                <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-emerald-400 opacity-75"></span>
-                <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500 border border-white shadow-sm"></span>
-              </span>
             </router-link>
           </li>
           <li>

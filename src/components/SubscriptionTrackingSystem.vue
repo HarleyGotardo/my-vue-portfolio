@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl p-10 border border-white/20 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500">
+  <div class="bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl p-10 border border-white/20 hover:shadow-2xl">
     <div class="flex items-start justify-between mb-8">
       <div class="flex items-center">
         <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mr-6 shadow-lg">
@@ -82,7 +82,7 @@
       </div>
     </div>
 
-    <p class="text-slate-600 mb-8 leading-relaxed text-lg">
+    <p class="text-slate-600 mb-8 leading-relaxed text-lg text-justify">
       Enterprise-grade subscription management system developed during my OJT, featuring comprehensive CRUD operations,
       automated expiry notifications, and role-based access controls with modern UI/UX design.
     </p>

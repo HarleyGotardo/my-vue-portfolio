@@ -55,7 +55,7 @@
             </svg>
             Full-Stack Development Portfolio
           </h2>
-          <p class="text-gray-700 leading-relaxed text-lg">
+          <p class="text-gray-700 leading-relaxed text-lg text-justify">
             From university management systems to forest monitoring solutions,
             these projects showcase my expertise in Vue.js, Laravel, database
             design, and modern web development practices. Each project
@@ -68,7 +68,7 @@
       <div class="space-y-10">
         <!-- Forest Product Collectors Monitoring System -->
         <div
-          class="bg-white border border-gray-200 rounded-3xl shadow-xl p-12 hover:shadow-2xl hover:scale-105 transition-all duration-500"
+          class="bg-white border border-gray-200 rounded-3xl shadow-xl p-12 hover:shadow-2xl  transition-all duration-500"
         >
           <div class="flex items-start justify-between mb-8">
             <div class="flex items-center">
@@ -271,7 +271,7 @@
             </div>
           </div>
 
-          <p class="text-slate-600 mb-8 leading-relaxed text-lg">
+          <p class="text-slate-600 mb-8 leading-relaxed text-lg text-justify">
             Enterprise-grade web-based monitoring system for VSU's Forest
             Protection Unit, digitizing forest product collection management
             with interactive GIS mapping, automated workflows, and comprehensive
@@ -653,7 +653,7 @@
         <SubscriptionTrackingSystem @open-image-viewer="openImageViewer" />
 
         <div
-          class="bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl p-10 border border-white/20 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500"
+          class="bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl p-10 border border-white/20 hover:shadow-2xl"
         >
           <div class="flex items-start justify-between mb-8">
             <div class="flex items-center">
@@ -824,7 +824,7 @@
             </div>
           </div>
 
-          <p class="text-gray-600 mb-8 leading-relaxed text-lg">
+          <p class="text-gray-600 mb-8 leading-relaxed text-lg text-justify">
             Mentoring master's degree student in developing Human Resource
             Information System for MIT capstone project. Also developed client's
             MIT Capstone: A comprehensive web-based HRIS built with Laravel for
@@ -969,7 +969,7 @@
         <div class="grid md:grid-cols-1 gap-8">
           <!-- E-commerce Platform -->
             <div
-            class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500"
+            class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500"
             >
             <div class="flex items-center mb-6">
               <div
@@ -992,7 +992,7 @@
               </p>
               </div>
             </div>
-            <p class="text-gray-600 mb-6 leading-relaxed">
+            <p class="text-gray-600 mb-6 leading-relaxed text-justify">
               Android-based inventory and sales management system built for
               sari-sari store owners. Features offline functionality, real-time
               stock updates, and intuitive sales reporting dashboards. Led team
@@ -1031,7 +1031,7 @@
 
           <!-- Task Management System -->
           <div
-            class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500"
+            class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500"
           >
             <div class="flex items-center mb-6">
               <div
@@ -1072,7 +1072,7 @@
                 <img
                   :src="fitnessImages[currentFitnessImageIndex].src"
                   :alt="fitnessImages[currentFitnessImageIndex].alt"
-                  class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  class="absolute inset-0 w-full h-full object-cover  transition-transform duration-500"
                 />
               </div>
 
@@ -1110,7 +1110,7 @@
               </button>
             </div>
 
-            <p class="text-gray-600 mb-6 leading-relaxed">
+            <p class="text-gray-600 mb-6 leading-relaxed text-justify">
               Complete fitness management solution featuring QR-based attendance
               tracking, nutrition guidance with Spoonacular API integration,
               BMI-based recommendations, and comprehensive membership management

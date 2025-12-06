@@ -29,7 +29,7 @@
             </svg>
             Academic Foundation
           </h2>
-          <p class="text-gray-700 leading-relaxed text-lg">
+          <p class="text-gray-700 leading-relaxed text-lg text-justify">
             My academic journey has provided me with a strong foundation in Computer Science, encompassing both theoretical
             knowledge and practical application through various projects and research initiatives.
           </p>
@@ -39,7 +39,7 @@
       <!-- Academic Achievements Grid -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
         <!-- Computer Science Foundation -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center mr-5 shadow-lg">
               <svg class="w-7 h-7 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
@@ -71,7 +71,7 @@
         </div>
 
         <!-- Project Development -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-14 h-14 bg-emerald-100 rounded-2xl flex items-center justify-center mr-5 shadow-lg">
               <svg class="w-7 h-7 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
@@ -109,7 +109,7 @@
         </div>
 
         <!-- Research & AI -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center mr-5 shadow-lg">
               <svg class="w-7 h-7 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
@@ -141,7 +141,7 @@
         </div>
 
         <!-- Mobile Development -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-14 h-14 bg-indigo-100 rounded-2xl flex items-center justify-center mr-5 shadow-lg">
               <svg class="w-7 h-7 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
@@ -161,7 +161,7 @@
         </div>
 
         <!-- Leadership & Management -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center mr-5 shadow-lg">
               <svg class="w-7 h-7 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
@@ -187,7 +187,7 @@
         </div>
 
         <!-- Technical Foundation -->
-        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-500">
+        <div class="bg-white border border-gray-200 rounded-3xl shadow-xl p-8 hover:shadow-2xl  transition-all duration-500">
           <div class="flex items-center mb-6">
             <div class="w-14 h-14 bg-red-100 rounded-2xl flex items-center justify-center mr-5 shadow-lg">
               <svg class="w-7 h-7 text-red-600" fill="currentColor" viewBox="0 0 20 20">
@@ -231,8 +231,8 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Certificate Copyright -->
           <div class="group cursor-pointer" @click="openImageViewer(0)">
-            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <img src="/achievements/certificate-copyright.jpg" alt="Certificate Copyright" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ">
+              <img src="/achievements/certificate-copyright.jpg" alt="Certificate Copyright" class="w-full h-56 object-cover group- transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                 <div class="flex items-center justify-center">
@@ -245,14 +245,14 @@
             </div>
             <div class="mt-4">
               <h4 class="font-bold text-gray-900 text-lg mb-2">Copyright Protection Certificate</h4>
-              <p class="text-gray-600 leading-relaxed">A milestone reached! I received a certificate for successfully copyrighting my thesis system, the Forest Product Collectors Monitoring System, which is a comprehensive web-based monitoring system for the VSU Forest Protection Unit. It's a small document, but a massive achievement, as it symbolizes the value and significance of my work.</p>
+              <p class="text-gray-600 leading-relaxed text-justify">A milestone reached! I received a certificate for successfully copyrighting my thesis system, the Forest Product Collectors Monitoring System, which is a comprehensive web-based monitoring system for the VSU Forest Protection Unit. It's a small document, but a massive achievement, as it symbolizes the value and significance of my work.</p>
             </div>
           </div>
 
           <!-- Diploma -->
           <div class="group cursor-pointer" @click="openImageViewer(1)">
-            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <img src="/achievements/diploma.jpg" alt="Diploma" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ">
+              <img src="/achievements/diploma.jpg" alt="Diploma" class="w-full h-56 object-cover group- transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                 <div class="flex items-center justify-center">
@@ -265,14 +265,14 @@
             </div>
             <div class="mt-4">
               <h4 class="font-bold text-gray-900 text-lg mb-2">Holding My Diploma on Stage</h4>
-              <p class="text-gray-600 leading-relaxed">One of the greatest moments of my life! This photo captures the moment when I proudly held my diploma on stage during my graduation ceremony. It's a feeling of accomplishment and a culmination of all the hard work and sacrifices I made throughout my academic journey. I'm grateful to have shared this moment with my loved ones and friends.</p>
+              <p class="text-gray-600 leading-relaxed text-justify">One of the greatest moments of my life! This photo captures the moment when I proudly held my diploma on stage during my graduation ceremony. It's a feeling of accomplishment and a culmination of all the hard work and sacrifices I made throughout my academic journey. I'm grateful to have shared this moment with my loved ones and friends.</p>
             </div>
           </div>
 
           <!-- OJT Presentation -->
           <div class="group cursor-pointer" @click="openImageViewer(2)">
-            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <img src="/achievements/ojt-present.jpg" alt="OJT Presentation" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ">
+              <img src="/achievements/ojt-present.jpg" alt="OJT Presentation" class="w-full h-56 object-cover group- transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                 <div class="flex items-center justify-center">
@@ -285,14 +285,14 @@
             </div>
             <div class="mt-4">
               <h4 class="font-bold text-gray-900 text-lg mb-2">Conquering Public Speaking</h4>
-              <p class="text-gray-600 leading-relaxed">I took a leap of faith and shared my internship experience with fellow students during the VSU Faculty of Engineering and VSU Faculty of Computing Student Internship Program Pre-Departure Orientation. It was a challenging but empowering experience, proving to myself that I can overcome my fears and effectively communicate my ideas to a wider audience.</p>
+              <p class="text-gray-600 leading-relaxed text-justify">I took a leap of faith and shared my internship experience with fellow students during the VSU Faculty of Engineering and VSU Faculty of Computing Student Internship Program Pre-Departure Orientation. It was a challenging but empowering experience, proving to myself that I can overcome my fears and effectively communicate my ideas to a wider audience.</p>
             </div>
           </div>
 
           <!-- Outstanding Achievement -->
           <div class="group cursor-pointer" @click="openImageViewer(3)">
-            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <img src="/achievements/outstanding.jpg" alt="Outstanding Achievement" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ">
+              <img src="/achievements/outstanding.jpg" alt="Outstanding Achievement" class="w-full h-56 object-cover group- transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                 <div class="flex items-center justify-center">
@@ -305,14 +305,14 @@
             </div>
             <div class="mt-4">
               <h4 class="font-bold text-gray-900 text-lg mb-2">From Zero to Hero</h4>
-              <p class="text-gray-600 leading-relaxed">I began my internship with zero full-stack development experience, but thanks to High6's guidance and patience, I learned, stumbled, and eventually found my footing. Being recognized as Outstanding Computer Science Trainee feels surreal. I'm grateful for every lesson learned along the way, and I look forward to continuing my growth as a developer.</p>
+              <p class="text-gray-600 leading-relaxed text-justify">I began my internship with zero full-stack development experience, but thanks to High6's guidance and patience, I learned, stumbled, and eventually found my footing. Being recognized as Outstanding Computer Science Trainee feels surreal. I'm grateful for every lesson learned along the way, and I look forward to continuing my growth as a developer.</p>
             </div>
           </div>
 
           <!-- Thesis Defense -->
           <div class="group cursor-pointer" @click="openImageViewer(4)">
-            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <img src="/achievements/thesis-defense.jpg" alt="Thesis Defense" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ">
+              <img src="/achievements/thesis-defense.jpg" alt="Thesis Defense" class="w-full h-56 object-cover group- transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                 <div class="flex items-center justify-center">
@@ -325,7 +325,7 @@
             </div>
             <div class="mt-4">
               <h4 class="font-bold text-gray-900 text-lg mb-2">Thesis Defense</h4>
-              <p class="text-gray-600 leading-relaxed">
+              <p class="text-gray-600 leading-relaxed text-justify">
                 I conceptualized, designed, developed, and defended my undergraduate thesis from start to finish. It was a challenging but rewarding experience that taught me the value of perseverance, time management, and self-motivation. I'm grateful for God's guidance throughout the process and proud to have successfully defended my work. A milestone I'll always treasure.
               </p>
             </div>
@@ -333,8 +333,8 @@
 
           <!-- Turn Over Ceremony -->
           <div class="group cursor-pointer" @click="openImageViewer(5)">
-            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <img src="/achievements/turn-over.jpg" alt="Turn Over Ceremony" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ">
+              <img src="/achievements/turn-over.jpg" alt="Turn Over Ceremony" class="w-full h-56 object-cover group- transition-transform duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div class="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                 <div class="flex items-center justify-center">
@@ -347,7 +347,7 @@
             </div>
             <div class="mt-4">
               <h4 class="font-bold text-gray-900 text-lg mb-2">Turn Over Ceremony</h4>
-              <p class="text-gray-600 leading-relaxed">
+              <p class="text-gray-600 leading-relaxed text-justify">
                 What started as an academic requirement evolved into a real-world solution. My system, built for VSU's forest product collectors, is now serving its intended purpose. It's fulfilling to see learning make a tangible impact.
               </p>
             </div>
