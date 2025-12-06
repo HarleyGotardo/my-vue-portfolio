@@ -131,8 +131,9 @@ Built an end-to-end subscription management system using Laravel, Vue.js, and In
               </svg>
             </div>
             <div>
-              <h4 class="text-xl font-bold text-gray-900">Thesis: <em class="text-gray-700">"HRIS: A Web-Based Human Resource Information System"</em></h4>
-              <p class="text-gray-600 text-lg mt-3 text-justify">Developed a comprehensive HR management system featuring employee records, attendance tracking, and payroll management using Laravel and Vue.js.</p>
+              <h4 class="text-xl font-bold text-gray-900">Thesis: <em class="text-gray-700">"Nature Cart: Forest Product Collectors Monitoring System"</em></h4>
+              <p class="text-gray-600 text-lg mt-3 text-justify">Designed and developed a monitoring and record-keeping system with GIS mapping and role-based access to replace
+ manual workflows. Earned an Excellent (4.64/5.0) rating in ISO/IEC 25010:2023 evaluation by 30 reviewers.</p>
             </div>
           </div>
           <div class="flex items-start">
